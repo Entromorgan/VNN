@@ -1,9 +1,11 @@
 # VNN
-Docker Version Implementation of MobiSys'20 Paper: Fast and Scalable In-memory Deep Multitask Learning via Neural Weight Virtualization [(Original GitHub Address)](https://github.com/learning1234embed/NeuralWeightVirtualization).
+Docker Version Implementation of MobiSys'20 Paper: Fast and Scalable In-memory Deep Multitask Learning via Neural Weight Virtualization ([Original GitHub Repo])(https://github.com/learning1234embed/NeuralWeightVirtualization).
 
 ## Software Install and Setup
 The following command is executed under Ubuntu 18.04LTS with an NVIDIA GPU card. 
+
 Software requirement: Make sure to have an [NVIDIA driver](https://www.nvidia.com/Download/index.aspx) installed.
+
 Hardware requirement: An NVIDIA GPU card that supports NVIDIA CUDA (but no need to install CUDA).
 
 **Step 1.** Install Docker
