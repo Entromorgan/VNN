@@ -1,5 +1,5 @@
 # VNN
-Docker Version Implementation of MobiSys'20 Paper: Fast and Scalable In-memory Deep Multitask Learning via Neural Weight Virtualization ([Original GitHub Repo])(https://github.com/learning1234embed/NeuralWeightVirtualization).
+Docker Version Implementation of MobiSys'20 Paper: Fast and Scalable In-memory Deep Multitask Learning via Neural Weight Virtualization [Original GitHub Repo](https://github.com/learning1234embed/NeuralWeightVirtualization).
 
 ## Software Install and Setup
 The following command is executed under Ubuntu 18.04LTS with an NVIDIA GPU card. 
@@ -24,7 +24,7 @@ sudo apt install -y nvidia-docker2
 
 **Step 3.** Run VNN Container
 ```sh
-sudo docker run --gpus all --name vnn -it leon018/vnn:1.0-py2
+sudo docker run --gpus all --name vnn -it registry.cn-hangzhou.aliyuncs.com/tinyedge/vnn:1.0-py2
 ```
 
 **Step 4.** Reproduce the Results
